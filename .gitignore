@@ -1,0 +1,53 @@
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration and logs
+*.log
+logs/
+*.sqlite3
+*.db
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Node dependencies (if frontend uses Node)
+node_modules/
+
+# Local uploads and generated data
+uploads/
+temp/
+tmp/venv/
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
